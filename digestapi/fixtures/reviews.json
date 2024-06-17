@@ -1,0 +1,35 @@
+[
+    {
+        "model": "digestapi.bookreview",
+        "pk": 1,
+        "fields": {
+            "book": 1,
+            "user": 1,
+            "rating": 3,
+            "comment": "This book was just okay.",
+            "date": "2024-06-17"
+        }
+    },
+    {
+        "model": "digestapi.bookreview",
+        "pk": 2,
+        "fields": {
+            "book": 2,
+            "user": 1,
+            "rating": 2,
+            "comment": "Awful.",
+            "date": "2024-06-17"
+        }
+    },
+    {
+        "model": "digestapi.bookreview",
+        "pk": 3,
+        "fields": {
+            "book": 3,
+            "user": 1,
+            "rating": 4,
+            "comment": "Good Read.",
+            "date": "2024-06-17"
+        }
+    }
+]

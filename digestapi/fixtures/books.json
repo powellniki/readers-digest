@@ -1,0 +1,112 @@
+[
+    {
+        "model": "digestapi.book",
+        "pk": 1,
+        "fields": {
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "isbn_number": 9780061120084,
+            "cover_img": "https://m.media-amazon.com/images/I/51vfmP05E8L._SY445_SX342_.jpg",
+            "user": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 2,
+        "fields": {
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "isbn_number": 9780141439570,
+            "cover_img": "https://m.media-amazon.com/images/I/41kDZ1-KyQL._SY445_SX342_.jpg",
+            "user": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 3,
+        "fields": {
+            "title": "One Hundred Years of Solitude",
+            "author": "Gabriel Garcia Marquez",
+            "isbn_number": 9781400033416,
+            "cover_img": "https://m.media-amazon.com/images/I/51Zr6Pd32ML._SY445_SX342_.jpg",
+            "user": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 4,
+        "fields": {
+            "title": "The Hate U Give",
+            "author": "Angie Thomas",
+            "isbn_number": 9780062368747,
+            "cover_img": "https://m.media-amazon.com/images/I/71ss1p8nk6L._SY522_.jpg",
+            "user": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 5,
+        "fields": {
+            "title": "The Da Vinci Code",
+            "author": "Dan Brown",
+            "isbn_number": 9780307277672,
+            "cover_img": "https://m.media-amazon.com/images/I/51hYdKyWYqL._SY445_SX342_.jpg",
+            "user": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 6,
+        "fields": {
+            "title": "The Kite Runner",
+            "author": "Khaled Hosseini",
+            "isbn_number": 9780143039959,
+            "cover_img": "https://m.media-amazon.com/images/I/41fAt2RhwML._SY445_SX342_.jpg",
+            "user": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 7,
+        "fields": {
+            "title": "A Wrinkle in Time",
+            "author": "Madeleine L'Engle",
+            "isbn_number": 9780064407665,
+            "cover_img": "https://m.media-amazon.com/images/I/81oqdz4hkeL._AC_UY436_FMwebp_QL65_.jpg",
+            "user": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 8,
+        "fields": {
+            "title": "American Gods",
+            "author": "Neil Gaiman",
+            "isbn_number": 9780062073488,
+            "cover_img": "https://m.media-amazon.com/images/I/81vOoc2NhoL._SY522_.jpg",
+            "user": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 9,
+        "fields": {
+            "title": "Where the Wild Things Are",
+            "author": " Maurice Sendak",
+            "isbn_number": 9780060256654,
+            "cover_img": "https://m.media-amazon.com/images/I/612cvg4xMFL._SX342_SY445_.jpg",
+            "user": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 10,
+        "fields": {
+            "title": "1984",
+            "author": "George Orwell",
+            "isbn_number": 9780140186409,
+            "cover_img": "https://m.media-amazon.com/images/I/71rpa1-kyvL._SY522_.jpg",
+            "user": 1
+        }
+    }
+]

@@ -60,16 +60,13 @@ class ReviewViewSet(viewsets.ViewSet):
 
 
 
-    # def retrieve(self, request, pk=None):
-    #     try:
-    #         # Get the requested review
-
-    #         # Serialize the object (make sure to pass the request as context)
-
-    #         # Return the review with 200 status code
-
-    #     except Review.DoesNotExist:
-    #         return Response(status=status.HTTP_404_NOT_FOUND)
+    def retrieve(self, request, pk=None):
+        try:
+            review = BookReview.objects.get(pk=pk) # Get the requested review
+            serializer = ReviewSerializer(review, context={'request': request}) # Serialize the object with context
+            return Response(serializer.data, status=status.HTTP_200_OK) # Return the review with 200 status code
+        except BookReview.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
 
 
 

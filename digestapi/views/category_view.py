@@ -18,6 +18,7 @@ class CategoryView(ViewSet):
             return Response(serialized.data, status=status.HTTP_200_OK)
         except Category.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
+        
 
 class CategorySerializer(serializers.ModelSerializer):
 
